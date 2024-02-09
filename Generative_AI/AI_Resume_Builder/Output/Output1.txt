@@ -1,0 +1,52 @@
+    Shivram
+
+LLLL
+Mobile: 1111111111
+Email: shivram@email.com
+
+Objective:
+To become a software engineer.
+
+Education:
+- Kamaraj Matriculation School, Kovilpatti
+- National Engineering College, Kovilpatti
+
+High Secondary Grade: 50%
+
+SSLC Grade: 50%
+
+College CGPA: 8.5
+
+Additional Education:
+- Completed 6 NPTEL courses
+
+Skills:
+- Java
+- C
+- C++
+- Python
+- Data Analytics
+- Communication
+- Web Development
+- JSP
+- Advanced Java
+- Databases
+- Node.js
+- Programming
+
+Achievements:
+- NPTEL Topper in 1% for two courses
+
+Experience:
+Fresher
+
+Project:
+Face Attendance System
+- Developed a system using CCTV video feed to track activity and mark attendance in institutions
+- Implemented face recognition mechanism for attendance inference of staff
+- Project source link: http://github.com/Face_Attendance_System
+
+Profiles:
+LinkedIn: https://www.linkedin.com/feed/
+GitHub: https://github.com/Shivram-U
+Other: https://github.com/Shivram-U

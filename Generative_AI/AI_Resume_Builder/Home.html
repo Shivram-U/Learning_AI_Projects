@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>details</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+            background-color:  #001F3F;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .containers{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .he{
+            height :80px;
+            width: 900px;
+            background-color: white;
+            border: 7px solid skyblue;
+        }
+        .msg{
+            height :80px;
+            width: 300px;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 20px;
+        }
+        .msg h2{
+            color: #7e1208;
+        }
+        .box1{
+            margin-left: 160px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            height: 900px;
+            width: 1140px;
+            border-radius: 20px;
+            border: 7px solid #7e1208;
+        }
+        .personal{
+            margin-top:20px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            background-color: white;
+            padding: 20px;
+            max-width: 80%;
+        }
+        label{
+            font-size: 20px;
+            display: block;
+            margin-bottom: 10px;;
+        }
+        .box1 input {
+            width: 300px;
+            height: 7px; 
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px; 
+        }
+        .containers2 h2{
+            height:60px;
+        }
+        .box2{
+            margin-left: 160px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            height: 730px;
+            width: 1140px;
+            border-radius: 20px;
+            border: 7px solid #7e1208;
+        }
+        .box2 input {
+            width: 300px;
+            height: 250px; 
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 20px; 
+        }
+        #btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffffff; /* Blue color, you can change it */
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        #btn:hover {
+            background-color: #000000; /* Darker blue color on hover, you can change it */
+            color:#ffffff;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://127.0.0.1:3000/Build_Resume/" method="get">
+        <center><div class="he"><h1>AI RESUME BUILDER</h1></center></div><br><br>
+        <div class="containers">
+            <center><div class="msg"><h2>PERSONAL DETAILS</h2></div></center><br> 
+            <div class="hi1">
+                <div class="box1">
+                    <div class="personal">
+                        <div class="text1"><label for="name">Enter name :</label><input type="text" name="name"></div><br>
+                        <div class="text1"><label for="age">Enter age :  </label><input type="text" name="age" ></div><br>
+                        <div class="text1"><label for="gender">Enter location :  </label><input type="text" name="gender" ></div><br>
+                        <div class="text1"><label for="mail">Enter mail :  </label><input type="text" name="mail" ></div><br>
+                        <div class="text1"><label for="phone number">Enter phone number :  </label><input type="text" name="pn" ></div><br>
+                        <div class="text1"><label for="objective">Enter objective :  </label><input type="text" name="objective" ></div><br>
+                    </div>
+                    <div class="new1">
+                        <img src="new.jpg" alt="no image">
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="containers1">
+            <center><div class="msg"><h2>EDUCATION DETAILS</h2></div></center><br> 
+            <div class="hi1">
+                <div class="box1">
+                    <div class="personal">
+                        <div class="text1"><label for="school">Enter school name with location :</label><input type="text" name="school"></div><br>
+                        <div class="text1"><label for="h_school">Enter HSC Percentage/Grade :  </label><input type="text" name="h_school" ></div><br>
+                        <div class="text1"><label for="hs_school">Enter SSLC Percentage/Grade :  </label><input type="text" name="hs_school" ></div><br>
+                        <div class="text1"><label for="c_loc">Enter college name with location:  </label><input type="text" name="c_loc" ></div><br>
+                        <div class="text1"><label for="c_grade">Enter college grade/CGPA :  </label><input type="text" name="c_grade" ></div><br>
+                        <div class="text1"><label for="add">Additional Educational Details :  </label><input type="text" name="add" ></div><br>
+                        <div class="text1"><label for="exp">Experience:  </label><input type="text" name="exp" ></div><br>
+                    </div>
+                    <div class="new1">
+                        <img src="ed.jpg" alt="no image">
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="containers2">
+            <center><div class="msg"><h2>SKILLS AND ACHIEVEMENT</h2></div></center><br> 
+            <div class="hi2">
+                <div class="box2">
+                    <div class="personal">
+                        <div class="text2"><label for="skills">Skills :</label><input type="text" name="skills"></div><br>
+                        <div class="text2"><label for="achievement">Achievement:  </label><input type="text" name="achievement" ></div><br>
+                    </div>
+                    <div class="new1">
+                        <img src="sa.jpg" alt="no image">
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="containers">
+            <center><div class="msg"><h2>Projects</h2></div></center><br> 
+            <div class="hi1">
+                <div class="box1">
+                    <div class="personal">
+                        <div class="text1"><label for="p_name">Project name:</label><input type="text" name="p_name"></div><br><br><br>
+                        <div class="text1"><label for="p_des">Project description:  </label><input type="text" name="p_des" ></div><br><br><br>
+                        <div class="text1"><label for="p_link">Project source link  </label><input type="text" name="p_link" ></div><br><br><br>
+                        <div class="text1"><label for="lp">Linked profile  </label><input type="text" name="lp" ></div><br><br><br>
+                        <div class="text1"><label for="gp">Github profile </label><input type="text" name="gp" ></div><br><br><br>
+                        <div class="text1"><label for="op">Other profiles </label><input type="text" name="op" ></div><br><br><br>
+                    </div>
+                    <div class="new1">
+                        <img src="p_img.jpg" alt="no image">
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <center>
+            <input id="btn" type="submit" value="Submit">
+        </center>
+    </form>
+</body>
+</html>
