@@ -13,4 +13,4 @@ In today's competitive job market, a well-crafted resume is essential for standi
 
 The project is concerned with using Generative AI Model like GPT for generating a web-presentable resume by collecting information required for a resume from the user.
 The front-end is implemented using HTML, CSS and javascript and the backend task include collecting the required information from user through front-end and generating the prompt are performed using Node JS. The Prompt generated is submitted to the OpenAI GPT Model and the response retrieved, is displayed back to the user in form of a web page.
-[ Ai Resume Builder Output](url(#ai-resume-builder))
+[Ai Resume Builder Output](#ai-resume-builder)
